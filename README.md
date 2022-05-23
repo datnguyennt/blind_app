@@ -85,12 +85,21 @@ Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| Get | [plugins/dropbox/README.md][PlDb] |
+| Get Store | [plugins/github/README.md][PlGh] |
+| Intl | [plugins/googledrive/README.md][PlGd] |
+| Flutter ScreenUtil | [plugins/onedrive/README.md][PlOd] |
+| Flutter Svg | [plugins/medium/README.md][PlMe] |
+| Google Fonts | [plugins/googleanalytics/README.md][PlGa] |
+| Google Fonts | [plugins/googleanalytics/README.md][PlGa] |
+| Url Launcher | [plugins/googleanalytics/README.md][PlGa] |
+| Dio | [plugins/googleanalytics/README.md][PlGa] |
+| Sqflite | [plugins/googleanalytics/README.md][PlGa] |
+| Cached Network Image | [plugins/googleanalytics/README.md][PlGa] |
+| Flutter Launcher Icons | [plugins/googleanalytics/README.md][PlGa] |
+| Google Sign In | [plugins/googleanalytics/README.md][PlGa] |
+| Firebase Core | [plugins/googleanalytics/README.md][PlGa] |
+| Firebase Auth | [plugins/googleanalytics/README.md][PlGa] |
 
 ## Development
 
