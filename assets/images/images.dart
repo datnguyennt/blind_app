@@ -1,4 +1,4 @@
-class DatNguyen { 
+class AppImages { 
 static const ADD_ICON_1 = 'assets/images/Add_Icon-1.svg';
 static const ADD_ICON = 'assets/images/Add_Icon.svg';
 static const ARCHIVE_ICON = 'assets/images/Archive_Icon.svg';
@@ -27,7 +27,7 @@ static const FILTER_ICON = 'assets/images/Filter Icon.svg';
 static const HOME_ICON = 'assets/images/Home_Icon.svg';
 static const HUMAN_ICON = 'assets/images/Human_Icon.svg';
 static const ICON_LOGO = 'assets/images/icon_logo.png';
-static const ICON_LOGO = 'assets/images/icon_logo.svg';
+static const ICON_LOGO_SVG = 'assets/images/icon_logo.svg';
 static const ICON_ONBOARDING = 'assets/images/icon_onboarding.svg';
 static const IMAGES = 'assets/images/images.dart';
 static const INSTAGRAM = 'assets/images/Instagram.svg';
