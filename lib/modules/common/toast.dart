@@ -221,7 +221,7 @@ class _ToastWidgetState extends State<_ToastAnimatedWidget>
   void initState() {
     super.initState();
 
-    WidgetsBinding.instance?.addPostFrameCallback((context) {
+    WidgetsBinding.instance.addPostFrameCallback((context) {
       if (this.mounted) {
         Future.delayed(Duration(seconds: 2), () {
           Toast.dismiss();

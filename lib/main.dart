@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import '/routes/app_pages.dart';
-import 'data/app_preference.dart';
-import 'modules/modules.dart';
 import 'util/common/initlizer.dart';
-import 'util/lang/translation_service.dart';
 import 'util/theme/app_themes.dart';
 
 void main() async {
