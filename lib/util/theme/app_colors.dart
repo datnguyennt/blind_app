@@ -1,26 +1,20 @@
 import 'package:flutter/material.dart';
 class AppColor{
-  static final HexColor pink01 = HexColor("#EF4765");
-  static final HexColor pink02 = HexColor("#FF9BAD");
-  static final HexColor yellow01 = HexColor("#FFC875");
-  static final HexColor cream01 = HexColor("#FFECD0");
-  static final HexColor grey01 = HexColor("#5E5E5E");
-  static final HexColor grey02 = HexColor("#ACACAC");
-  static final HexColor grey03 = HexColor("#F1F2F2");
-  static final HexColor white = HexColor("#FFFFFF");
-  static final HexColor black = HexColor("#000000");
-  static final HexColor green = HexColor("#43F054");
+  static final Color pink01 = getColorFromHex("#EF4765");
+  static final Color pink02 = getColorFromHex("#FF9BAD");
+  static final Color yellow01 = getColorFromHex("#FFC875");
+  static final Color cream01 = getColorFromHex("#FFECD0");
+  static final Color grey01 = getColorFromHex("#5E5E5E");
+  static final Color grey02 = getColorFromHex("#ACACAC");
+  static final Color grey03 = getColorFromHex("#F1F2F2");
+  static final Color white = getColorFromHex("#FFFFFF");
+  static final Color black = getColorFromHex("#000000");
+  static final Color green = getColorFromHex("#43F054");
+  static final Color shadowColor = getColorFromHex("#939393");
 
-}
 
-class HexColor extends Color {
-  static int _getColorFromHex(String hexColor) {
-    hexColor = hexColor.toUpperCase().replaceAll("#", "");
-    if (hexColor.length == 6) {
-      hexColor = "FF" + hexColor;
-    }
-    return int.parse(hexColor, radix: 16);
+   static Color getColorFromHex(String hex) {
+    return Color(int.parse(hex.replaceAll('#', '0xFF')));
   }
 
-  HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
 }

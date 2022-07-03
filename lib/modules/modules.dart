@@ -1,16 +1,5 @@
-export 'common/commons.dart';
-export 'common/dropdown_picker.dart';
-export 'common/dropdown_picker_with_icon.dart';
-export 'common/error_page.dart';
-export 'common/form_input_field_with_icon.dart';
-export 'common/form_vertical_spacing.dart';
-export 'common/label_button.dart';
-export 'common/lazy_load_widget.dart';
-export 'common/loading.dart';
-export 'common/primary_button.dart';
-export 'common/segmented_selector.dart';
 export 'home/bindings/home_binding.dart';
 export 'home/controllers/home_controller.dart';
 export 'home/views/home_page.dart';
-export 'splash/controllers/splash_service.dart';
+export 'splash/controllers/splash_controller.dart';
 export 'splash/views/splash_view.dart';

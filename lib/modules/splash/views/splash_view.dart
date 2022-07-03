@@ -6,20 +6,7 @@ import '../../../util/common/common.dart';
 import '../../../util/constants/constants.dart';
 import '/modules/modules.dart';
 
-class SplashView extends StatefulWidget {
-  const SplashView({Key? key}) : super(key: key);
-
-  @override
-  State<SplashView> createState() => _SplashViewState();
-}
-
-class _SplashViewState extends State<SplashView> {
-  @override
-  void initState() {
-    Get.find<SplashService>().init();
-    // TODO: implement initState
-    super.initState();
-  }
+class SplashView extends GetView<SplashController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +18,7 @@ class _SplashViewState extends State<SplashView> {
               flex: 10,
               child: Center(
                 child: SvgPicture.asset(
-                  AppImage.logo,
+                  AppImage.ICON_LOGO_SVG,
                   height: height(256),
                   width: width(256),
                   //allowDrawingOutsideViewBox: true,

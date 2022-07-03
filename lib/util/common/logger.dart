@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:stack_trace/stack_trace.dart';
 import 'package:path_provider/path_provider.dart';
+import 'dart:developer' as dev;
 
 enum LogLevel {
   DEBUG,
@@ -79,7 +80,7 @@ class Logger {
           message: msg,
         );
 
-        print('$tag - ${log.toString()}'); // Console log option
+        dev.log('$tag - ${log.toString()}'); // Console log option
 
         switch (storageOption) {
           case StorageOptions.LOCAL_STORAGE:
@@ -93,7 +94,7 @@ class Logger {
         }
       }
     } catch (error) {
-      print(error);
+      dev.log(error.toString());
     }
   }
 }
